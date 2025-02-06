@@ -1,0 +1,9 @@
+tensorFlow
+numPy
+pandas
+matplotlib
+seaborn
+scikit-learn
+umap
+umap-learn
+opencv-python
