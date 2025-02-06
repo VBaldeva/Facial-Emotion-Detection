@@ -68,15 +68,15 @@ This project utilizes deep learning techniques to detect human emotions based on
 
 ## Project Structure
 
-- [haarcascade_frontalface_default.xml](http://_vscodecontentref_/1): Pre-trained XML classifier for face detection.
-- [OpenCV_final-checkpoint.py](http://_vscodecontentref_/2): Script for real-time emotion detection using the webcam.
-- `Main (1).ipynb`: Jupyter notebook for training the emotion detection model.
+- [haarcascade_frontalface_default.xml](https://github.com/VBaldeva/Facial-Emotion-Detection/blob/main/haarcascade_frontalface_default.xml): Pre-trained XML classifier for face detection.
+- [Emotion Detection](https://github.com/VBaldeva/Facial-Emotion-Detection/blob/main/OpenCV_final.py): Script for real-time emotion detection using the webcam.
+- [Model_Training.ipynb](https://github.com/VBaldeva/Facial-Emotion-Detection/blob/main/model.ipynb): Jupyter notebook for training the emotion detection model.
 - [requirements.txt](http://_vscodecontentref_/3): List of required Python packages.
-- `images/`: Directory containing training and validation images.
+- [model weights](https://github.com/VBaldeva/Facial-Emotion-Detection/blob/main/model.h5): Weights of the trained model
 
 ## Model Training
 
-The model is trained using a Convolutional Neural Network (CNN) on a dataset of facial expressions. The training process includes data augmentation and uses the Adam optimizer. The trained model is saved as [model.h5] (http://_vscodecontentref_/4).
+The model is trained using a Convolutional Neural Network (CNN) on a dataset of facial expressions. The training process includes data augmentation and uses the Adam optimizer. The trained model is saved as [model.h5] (https://github.com/VBaldeva/Facial-Emotion-Detection/blob/main/model.h5).
 
 ## Real-Time Emotion Detection
 
